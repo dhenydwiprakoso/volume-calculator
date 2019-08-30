@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+* {
+	box-sizing: border-box;
+	background-image: cube.png;
+
+}
+
+body {
+	font-family:Poppins, Arial, sanserif;
+	padding: 10px;
+	background:#F1F1F1;
+	background-image: url(images/rune-factory.jpg);
+	border-radius: 20px;
+}
+div.header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+	opacity: 0.9;
+  	filter: alpha(opacity=90);
+}
+
+div.header h1 {
+	font-size: 40px;
+}
+div.nav {
+	overflow:hidden;
+	background-color:#333;
+	opacity: 0.9;
+  	filter: alpha(opacity=90);
+}
+
+div.nav a {
+	float : left;
+	display: block;
+	color: #F2F2F2;
+	text-align: center;
+	padding : 14px 16px;
+	text-decoration:none;
+}
+
+div.content {
+	background-color: white;
+	padding : 20px;
+	text-align: center;
+	overflow:hidden;
+	opacity: 0.9;
+  	filter: alpha(opacity=90);
+}
+
+div.footer {
+	padding: 20px;
+	text-align: center;
+	background: black;
+	margin-top: 20px;
+	opacity: 0.6;
+  	filter: alpha(opacity=60);
+  	color:white;
+  	border-radius: 20px;
+}
+
+div.choice {
+	display:inline-block;
+}
+
+div.images {
+	display: inline-block;
+	max-width: 20%;
+	margin: 0.25%;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	border-style: solid;
+	border-color : gray;
+	border-width:5px;
+	border-radius:20px;
+}
+
+div.center {
+	text-align : center;
+}
+
+div.medsos {
+	float:left;
+}
+
+div.form {
+	padding-top:30px;
+	padding-bottom: 30px;
+	border-style:solid;
+	border-color: black;
+	border-radius: 20px;
+	width:40%;
+	text-align:center;
+
+}
